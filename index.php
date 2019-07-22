@@ -3,7 +3,6 @@
 	require_once "lib/view.php";
 	require_once "lib/controller.php";
 	require_once "To_do_list.html";
-	require
 	$myList = new Saraksts();
 	$myList->getList(1);
 ?>
