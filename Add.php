@@ -1,10 +1,9 @@
 <?php
 	declare(strict_types = 1);
-	require_once "lib/addLieta.php";
 	require_once "To_do_list.html";
     //require_once "newEntry";
 ?>
-<form class=Lieta method="POST" action="#">
+<form class=Lieta method="POST" action="addLieta.php">
   <div class="form-group">
     <label for="Virsraksts">Virsraksts</label>
     <input type="text" class="form-control" id="Virsraksts" name="Name" placeholder="Virsraksts">
